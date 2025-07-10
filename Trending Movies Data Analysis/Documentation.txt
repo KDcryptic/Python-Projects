@@ -1,0 +1,50 @@
+Trending Movies Data Analysis
+
+Project Overview:
+
+We have a dataset contains a comprehensive collection of trending movie data. Spanning from 1990 to 2025, it offers a rich overview of cinematic trends across decades. The dataset includes detailed information on 10,000 popular and trending movies. The goal is to find actionable insights
+
+Tools Used:
+
+Python: Pandas, Matplotlib, Numpy
+
+Data Cleaning and processing:
+
+1. Removed duplicates based on "title" column
+2. Removed "overview" & "original_title" column
+3. Removed 156 rows with null values in the release_date column
+4. Filtered out movies that are have not been released as of 07/09/2025(Day the project was done)
+
+Insights
+
+1. Seasonal Trends
+
+- Summer movies have the highest engagement which contributes to them being more popular but they also have the second lowest voting average which means although they are popular they may not be fan favorites compared to the other seasons above it.
+
+- Spring movies have the lowest engagement and voting average hence why they lack in popularity compared to movies released in other seasons.
+
+- Winter movies have a good voting average meaning they are loved but they lack in engagement.
+
+- Movies released in fall have a good amount of engagement and they are often fan favorites shown by their voting average which is why they are as popular as they are. This is also when studios often release award contenders which could be why their engagement is so high.
+
+2. Era Trends
+
+- A movie titled 'The Great Dictator' seems to be proof that old movies can be considered 'trending' today as it surpassed its predecessors and future movies being the only movie before the year 2020 to reach a popularity score of 200 and above.
+
+- The popularity of movies had been increasing with each new era, but the modern era(2011+) has yet to pass the blockbuster era(1980-2010) in popularity which could mean a decrease in support or ratings.
+
+- The blockbuster era has the highest amount of engagement(vote count) which probably contributes to it being the most popular era of movies while the modern era being the second highest in terms of popularity has the second lowest level of engagement and still falls behind the blockbuster era in terms of average movie ratings which could further support the point of consumers losing interest or hype not being converted to ratings.
+
+- Although the Golden Age lacks in engagement and popularity it still has the highest voting average among all the eras which could possibly mean audiences prefer older movies rather than newer ones.
+
+3. Additional Insights
+
+- There are 10 'extremely' popular movies with low vote counts and they were all released in 2025 which could mean modern movies may be artificially inflated or very well marketed before and after release, but did not getting as much engagement.
+
+- The most popular movies are often titles made originally in English, but a Japanese film titled 'Spirited Away' managed to rank 7th on a top 10 list of best voted movies within this dataset. Japanese also just so happens to be the second most common language for movie titles in this dataset.
+
+- Although Korean titles are 4th in terms of number of titles within this dataset, a Korean movie titled 'Parasite' still managed to rank #9 on a list of the top 10 best voted movies within this dataset and it is the only movie from the 'Modern Era' to be ranked on this list making it an unexpected stand out amongst the languages and possibly a preferred language for titles in the modern era.
+
+- Older movies appear to have a better voting average than newer titles meaning the audience might have prefer the older style of movies rather than the new.
+
+- There is a good positive correlation between the voting average and popularity meaning when the popularity is high the title probably has a good voting average.
