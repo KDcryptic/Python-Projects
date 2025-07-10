@@ -6,7 +6,8 @@ We have a dataset contains a comprehensive collection of trending movie data. Sp
 
 Tools Used:
 
-Python: Pandas, Matplotlib, Numpy
+Python: Pandas, Matplotlib, Numpy - Data Cleaning and Analysis
+Power BI - Data Visualization
 
 Data Cleaning and processing:
 
